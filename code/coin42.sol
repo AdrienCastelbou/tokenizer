@@ -1,8 +1,8 @@
-//SPDX-Licence-Identifier: UNLICENCIED
+// SPDX-License-Identifier: MIT
 
-pragma solidity >=0.7.0 < 0.9.0;
+pragma solidity >=0.8.0 < 0.9.0;
 
-contract coin42ERC20 {
+contract coin42 {
     // events dclaration
     event Transfer(address indexed from, address indexed to, uint tokens);
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
@@ -11,18 +11,17 @@ contract coin42ERC20 {
     string public constant name = "42 coin";
     string public constant symbol = "42C";
     uint8 public constant decimals = 18;
+    uint256 public constant totalSupply = 1000000000000000000000000;
 
     // private token attributes
     // the balance of each addresses
     mapping(address => uint256) balances;
     // the amount of token allowed to be transfered to a recipient
     mapping(address => mapping(address => uint256)) allowed;
-    uint256 totalSupply_;
 
     // token constructor
-    constructor(uint256 total) {
-        totalSupply_ = total;
-        balances[msg.sender] = totalSupply_;
+    constructor() {
+        balances[msg.sender] = totalSupply;
     }
 
     function balanceOf(address tokenOwner) public view returns (uint) {
