@@ -11,7 +11,7 @@ contract coin42 {
     string public constant name = "42 coin";
     string public constant symbol = "42C";
     uint8 public constant decimals = 18;
-    uint256 totalSupply = 1000000000000;
+    uint256 public constant totalSupply = 1000000000000000000000000;
 
     // private token attributes
     // the balance of each addresses
