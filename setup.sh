@@ -9,6 +9,6 @@ elif [[ "$#" -eq 1 ]] && [[ "$1" = "--bonus" ]]; then
     cp ./code/multisig42.sol ./deployment/contracts
     echo "[ BONUS ] Done"
     echo "[ BONUS ] Installing packages..."
-    npm install ./bonus
+    npm install --prefix ./bonus ./bonus
     echo "[ BONUS ] Done"
 fi
