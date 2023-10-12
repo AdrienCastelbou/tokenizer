@@ -11,4 +11,6 @@ elif [[ "$#" -eq 1 ]] && [[ "$1" = "--bonus" ]]; then
     echo "[ BONUS ] Installing packages..."
     npm install --prefix ./bonus ./bonus
     echo "[ BONUS ] Done"
+else
+    echo "Wrong usage : run setup.sh for mandatory part or setup.sh --bonus for the bonus part"
 fi
