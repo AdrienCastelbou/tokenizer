@@ -9,7 +9,12 @@ if (args.length < 2) {
 }
 const numConirmations = parseInt(args.shift())
 const addresses = args
-
+addresses.forEach(a => {
+  if (!/^(0x)?[0-9a-fA-F]{40}$/.test(a)) {
+    console.log("Error : Wrong format address")
+    process.exit()
+  }
+})
 if (!numConirmations || numConirmations < 1 || numConirmations > 50 ) {
   console.log("Error : numConfirmations should be an int greater than 0 and lower than 50")
   process.exit()
