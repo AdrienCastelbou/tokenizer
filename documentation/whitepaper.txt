@@ -19,6 +19,7 @@ In this way, the credits system becomes more liquid and efficient, and gamified.
 
 Technical Description
 
-Built on the BSC, the BNB smart chain, a famous blockchain powered by the BNB foundation and Binance, the largest crypto exchange in the world, chosen for its accessibility, efficiency and low fees, 42Coin is an ERC20 token, fungible with a supply of 1000000 tokens, and will be easily accessible. To use it, students need a crypto wallet on the bsc, which can be created through the intranet if user doesn’t have one, otherwise he can add his own.
+Built on the BSC, the BNB smart chain, a famous blockchain powered by the BNB foundation and Binance, the largest crypto exchange in the world, chosen for its accessibility, efficiency and low fees, 42Coin is an ERC20 token, fungible with a supply of 1000000 tokens, and will be easily accessible.
+To use it, students need a crypto wallet on the bsc, which can be created through the intranet if user doesn’t have one, otherwise he can add his own.
 After that, credits earned through events  or accomplishments will be automatically sent to the user wallet.
 Then, the user can do operations with it such as spend it for goodies or send it to another user, using for example a web3 wallet like Metamask, which can be connected to the intranet.

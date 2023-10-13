@@ -7,8 +7,13 @@ if (args.length < 2) {
   console.log("Wrong usage of custom_arguemnt (only used for Multisig contract deployment): truffle migrate [...] --custom_argument 'numConfirmations address1 address2 ...addressX'")
   process.exit();
 }
-const numConirmations = args.shift()
+const numConirmations = parseInt(args.shift())
 const addresses = args
+
+if (!numConirmations || numConirmations < 1 || numConirmations > 50 ) {
+  console.log("Error : numConfirmations should be an int greater than 0 and lower than 50")
+  process.exit()
+}
 
 module.exports = function (deployer) {
   deployer.deploy(Multisig, addresses, numConirmations);
