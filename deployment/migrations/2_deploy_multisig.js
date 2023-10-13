@@ -1,6 +1,17 @@
 const argv = require('minimist')(process.argv.slice(2), {string: ['custom_argument']});
-const Multisig = artifacts.require("MultiSigWallet");
 
+try {
+  const Multisig = artifacts.require("MultiSigWallet");
+}
+catch (e) {
+  console.log(e)
+  process.exit()
+}
+
+if (!argv['custom_argument']) {
+  console.log('custom_argument parameter is needed')
+  process.exit()
+}
 let args = argv['custom_argument'].trim().split(/\s+/)
 
 if (args.length < 2) {
