@@ -1,0 +1,24 @@
+42 coin Whitepaper
+
+In a world where trustiness and transparency are disappearing, 42 coin is going to put the church in the middle of the village, by enabling 42 students to really own their wallet coins.
+
+Introduction  
+The 42 network is a network of schools across the world, using a very innovative pedagogy : without teachers, courses, classes or planning, the students learn how to code by peer learning and hard work.
+To reward students, credits can be given in particular situations, after an event or for community contribution.
+It allows students to buy goodies or advantages with these fictive money, in a shop unique for each campus, accessible to the school’s intranet. 
+
+Problematic 
+However, It can be long and complicated to collect enough credits to purchase the hoodie of our dreams, opportunities to earn some are rare and you have to be fast and available.
+
+Solution
+It is where 42Coin appears : to solve this opaque and illiquid system, the goal of 42Coin is to replace it by another one more efficient, and transparent, using blockchain.
+Students will still be able to earn 42Coin by completing achievements, but now they will also be available to give and receive them from other owners and exchange them on a decentralized exchange (DEX), against other cryptocurrencies.
+It will also be possible to organize tournaments where the winner will win the bet of the other players.
+In this way, the credits system becomes more liquid and efficient, and gamified.
+
+
+Technical Description
+
+Built on the BSC, the BNB smart chain, a famous blockchain powered by the BNB foundation and Binance, the largest crypto exchange in the world, chosen for its accessibility, efficiency and low fees, 42Coin is an ERC20 token, fungible with a supply of 1000000 tokens, and will be easily accessible. To use it, students need a crypto wallet on the bsc, which can be created through the intranet if user doesn’t have one, otherwise he can add his own.
+After that, credits earned through events  or accomplishments will be automatically sent to the user wallet.
+Then, the user can do operations with it such as spend it for goodies or send it to another user, using for example a web3 wallet like Metamask, which can be connected to the intranet.
