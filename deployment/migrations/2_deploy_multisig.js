@@ -1,7 +1,8 @@
 const argv = require('minimist')(process.argv.slice(2), {string: ['custom_argument']});
+let Multisig
 
 try {
-  const Multisig = artifacts.require("MultiSigWallet");
+  Multisig = artifacts.require("MultiSigWallet");
 }
 catch (e) {
   console.log(e)
