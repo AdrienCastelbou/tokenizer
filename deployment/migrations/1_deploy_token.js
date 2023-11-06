@@ -1,5 +1,6 @@
+let Token
 try {
-  const Token = artifacts.require("coin42");
+  Token = artifacts.require("coin42");
 }
 catch (e) {
   console.log(e)
